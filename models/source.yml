@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: huy_de
+    tables:
+      - name: warehouse_performance
+      - name: warehouse_performance_stg
