@@ -7,5 +7,6 @@
 
 select 
     * except(period)
+    
 from {{ ref("demo_2")}}
 
