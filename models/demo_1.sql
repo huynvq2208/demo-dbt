@@ -6,5 +6,5 @@
 }}
 
 select *
-from {{ source("huy_de", "warehouse_performance") }}
+from {{ source("Test", "sample_data") }} 
 

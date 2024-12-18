@@ -6,7 +6,7 @@
 }}
 
 select 
-    * except(period)
+    * except(`First name`) 
 
 from {{ ref("demo_1")}}
 
