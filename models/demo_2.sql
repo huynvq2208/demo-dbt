@@ -1,6 +1,6 @@
 {{
     config(
-        schema_override='huy_de',
+        schema_override='demo_dbt',
         materialized='table'
     )
 }}
