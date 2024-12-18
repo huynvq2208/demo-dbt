@@ -7,6 +7,6 @@
 
 select 
     * except(period)
-    
-from {{ ref("demo_2")}}
+
+from {{ ref("demo_1")}}
 
