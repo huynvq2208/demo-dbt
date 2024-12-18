@@ -6,6 +6,7 @@
 }}
 
 select 
-    * except(`First name`) 
+    * except(`First name`)
+    
 from {{ ref("demo_1")}}
 
