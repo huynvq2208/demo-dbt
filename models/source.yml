@@ -4,3 +4,4 @@ sources:
   - name: Test
     tables:
       - name: sample_data
+      
