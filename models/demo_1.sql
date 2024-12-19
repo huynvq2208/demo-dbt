@@ -1,6 +1,6 @@
 {{
     config(
-        schema='demo_dbt',
+        schema_override='demo_dbt',
         materialized='table'
     )
 }}
