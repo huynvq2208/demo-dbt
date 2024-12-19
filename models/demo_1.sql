@@ -6,5 +6,6 @@
 }}
 
 select *
+
 from {{ source("Test", "sample_data") }} 
 
